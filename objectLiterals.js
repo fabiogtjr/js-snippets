@@ -1,4 +1,4 @@
-function UserPolicy(type) {
+const UserPolicy = (type: 'default') => {
     const Users = {
     admin: 'This User is Admin!',
     client: 'This User is Client!',
